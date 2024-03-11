@@ -1,4 +1,9 @@
-ul {
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,6 +12,6 @@ ul {
     /* justify-content: space-between; */
 }
 
-li a {
+.header-nav li a {
     text-decoration: none;
 }

@@ -5,7 +5,7 @@ export const Main = () => {
                 {/* hero section */}
             </section>
             <section>
-                {/*highlights section */}
+                {/*specials section */}
                 <article>
                     {/* one article for each card */}
                 </article>
