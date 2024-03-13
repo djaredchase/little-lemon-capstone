@@ -1,4 +1,3 @@
-import { Nav } from "./Nav/Nav"
 import './Footer.css';
 
 export const Footer = () => {
