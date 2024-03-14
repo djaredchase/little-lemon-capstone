@@ -9,7 +9,7 @@ export const HeroSection = () => {
                 <h1>Little lemon</h1>
                 <h3>Chicago</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus eleifend euismod.</p>
-                <Button bg='brand.200' className='primary-btn'>Reserve a table</Button>
+                <Button variant='secondary'>Reserve a table</Button>
             </div>
             <div>
 
