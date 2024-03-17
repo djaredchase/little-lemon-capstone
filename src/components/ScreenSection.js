@@ -6,9 +6,10 @@ export const ScreenSection = ({ children, backgroundColor }) => {
         alignItems: 'center'
     }
 
+    // 1920 or 1440 for max-width
     return (
         <section style={{ backgroundColor, ...flexStyles }}>
-            <div style={{ maxWidth: '1920px', minHeight: '50vh', ...flexStyles }}>
+            <div style={{ maxWidth: '1440px', minHeight: '50vh', ...flexStyles }}>
                 {children}
             </div>
         </section>

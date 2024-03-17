@@ -4,10 +4,10 @@ import Logo from '../../assets/Logo.svg';
 export const Nav = () => {
     return (
         <header>
-            <img src={Logo} alt='Little Lemon logo'/>
             <nav className='header-nav'>
+                <img src={Logo} alt='Little Lemon logo'/>
                 <ul>
-                    <li><a href='/'>Home</a></li>
+                    <li className='nav-selected'><a href='/'>Home</a></li>
                     <li><a href='/'>About</a></li>
                     <li><a href='/'>Menu</a></li>
                     <li><a href='/'>Order online</a></li>

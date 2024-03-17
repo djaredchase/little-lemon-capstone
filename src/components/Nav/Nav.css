@@ -1,19 +1,30 @@
 header {
     background-color: #EDEFEE;
+    color: #495E57;
     padding: 1rem 2rem;
+}
+
+header nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'markazi text';
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 .header-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     gap: 2rem;
-    /* justify-content: space-between; */
+    list-style-type: none;
 }
 
-.header-nav li a {
-    text-decoration: none;
+.header-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav li.nav-selected {
+    text-decoration: underline;
 }
