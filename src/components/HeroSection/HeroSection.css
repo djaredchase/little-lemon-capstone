@@ -1,4 +1,49 @@
 .hero-section-container {
     display: flex;
+    justify-content: space-between;
+}
+
+.hero-section-container > div {
+    flex: 1;
+}
+
+.hero-section-text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-section-text h1 {
+    color: #F4CE14;
+    font-family: 'markazi text';
+    font-size: 4rem;
+}
+
+.hero-section-text h2 {
+    color: white;
+    font-family: 'markazi text';
+    font-size: 2.5rem;
+}
+
+.hero-section-text p {
+    color: white;
+    font-family: 'karla';
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section-img {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-section-img img {
+    max-width: 100%;
+    height: auto; /* this and the above is for making image responsive */
+    max-height: 50vh;
+    border-radius: 5%;
+    /* margin-top: 5rem; */
+    position: relative;
+    top: 3rem;
 }
