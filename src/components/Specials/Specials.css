@@ -1,0 +1,55 @@
+.specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specials-header h2 {
+    color: #495E57;
+    font-family: 'markazi text';
+    font-size: 2.5rem;
+}
+
+.specials-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+}
+
+.specials-card {
+    background-color: #EDEFEE;
+    border-radius: 5%;
+}
+
+.specials-card:hover {
+    /* cursor: pointer; */
+    transform: translate3D(0, -1px, 0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39, 44, 49, .07), 1px 6px 12px rgba(39, 44, 49, .04);
+    transition: all .4s ease;
+}
+
+.specials-card-body {
+    padding: 1rem;
+    color: #495E57;
+}
+
+.specials-card-body h3 {
+    /* font-family: 'markazi text'; */
+    font-family: 'karla';
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.specials-card-body p {
+    margin: 1rem 0;
+    font-family: 'karla';
+}
+
+.specials-card-body-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specials-card img {
+    border-radius: 5% 5% 0 0;
+}

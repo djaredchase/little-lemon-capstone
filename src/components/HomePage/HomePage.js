@@ -9,15 +9,12 @@ export const HomePage = () => {
     return (
         <>
             <main>
-                <ScreenSection backgroundColor='#495E57'>
+                <ScreenSection backgroundColor='#495E57' marginBottom='5rem'>
                     <HeroSection />
                 </ScreenSection>
-                <section>
-                    {/* <Specials /> */}
-                    {/* <article>
-                        one article for each card
-                    </article> */}
-                </section>
+                <ScreenSection marginBottom='5rem'>
+                    <Specials />
+                </ScreenSection>
                 <section>
                     {/* <Testimonials /> */}
                     {/* <article>

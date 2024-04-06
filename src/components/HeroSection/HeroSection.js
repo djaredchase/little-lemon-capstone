@@ -12,7 +12,7 @@ export const HeroSection = () => {
                 <Button variant='secondary'>Reserve a table</Button>
             </div>
             <div className='hero-section-img'>
-                <img src={FoodImage} alt='restaurant food'/>
+                <img src={FoodImage} alt='add food description'/>
             </div>
         </div>
     )

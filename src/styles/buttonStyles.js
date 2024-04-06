@@ -26,6 +26,9 @@ export const buttonStyles = {
                 bg: 'brand.secondary-darker',
                 color: 'brand.primary-darker'
             }
+        },
+        link: {
+            color: 'brand.primary'
         }
     },
     // default values for 'size', 'variant' and 'colorScheme'
