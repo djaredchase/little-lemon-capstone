@@ -14,6 +14,7 @@ export const Nav = () => {
                     <li><a href='/'>Reservations</a></li>
                     <li><a href='/'>Login</a></li>
                 </ul>
+                <button className='header-nav-btn'>Nav</button>
             </nav>
         </header>
     )
