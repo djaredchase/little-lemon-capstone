@@ -28,7 +28,7 @@ header nav {
     align-items: center;
 }
 
-.header-nav li.nav-selected {
+li.nav-selected {
     text-decoration: underline;
 }
 
@@ -39,7 +39,20 @@ header nav {
 }
 
 @media screen and (min-width: 768px) {
-    .header-nav-btn {
+    .chakra-button.header-nav-btn.css-22xpxh {
         display: none;
     }
+}
+
+.nav-drawer {
+    background-color: #EDEFEE;
+    color: #495E57;
+    text-align: center;
+    font-family: 'markazi text';
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.nav-drawer ul {
+    list-style: none;
 }
