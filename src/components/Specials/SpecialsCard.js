@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Button } from '@chakra-ui/react';
 import GreekSalad from '../../assets/greek_salad.jpg';
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 

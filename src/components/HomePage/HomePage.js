@@ -15,15 +15,12 @@ export const HomePage = () => {
                 <ScreenSection marginBottom='5rem'>
                     <Specials />
                 </ScreenSection>
-                <section>
-                    {/* <Testimonials /> */}
-                    {/* <article>
-                        one article for each review
-                    </article> */}
-                </section>
-                <section>
-                    {/* <About /> */}
-                </section>
+                <ScreenSection marginBottom='5rem'>
+                    <Testimonials />
+                </ScreenSection>
+                <ScreenSection marginBottom='5rem'>
+                    <About />
+                </ScreenSection>
             </main>
             <footer>
                 {/* <Footer /> */}
