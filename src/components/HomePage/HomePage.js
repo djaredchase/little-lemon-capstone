@@ -18,12 +18,14 @@ export const HomePage = () => {
                 <ScreenSection marginBottom='5rem'>
                     <Testimonials />
                 </ScreenSection>
-                <ScreenSection marginBottom='5rem'>
+                <ScreenSection marginBottom='10rem'>
                     <About />
                 </ScreenSection>
             </main>
             <footer>
-                {/* <Footer /> */}
+                <ScreenSection marginBottom='5rem'>
+                    <Footer />
+                </ScreenSection>
             </footer>
         </>
     );

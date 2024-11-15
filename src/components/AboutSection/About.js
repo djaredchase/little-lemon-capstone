@@ -12,8 +12,6 @@ export const About = () => {
             </div>
             <img src={MarioAndAdrian_A} />
             <img src={MarioAndAdrian_B} />
-            {/* <div className='about-section-images'>
-            </div> */}
         </div>
     )
 }

@@ -1,12 +1,12 @@
 import './Footer.css';
+import Logo from '../../assets/Logo.svg';
 
 export const Footer = () => {
     return (
-        <footer>
-            <img src='logo src' alt='' />
-            <section>
+        <div className='footer-container'>
+            <img src={Logo} alt='Little Lemon logo' />
+            <div>
                 <h3>Doormat Navigation</h3>
-                {/* <Nav /> */}
                 <nav>
                     <ul>
                         <li><a href='/'>Home</a></li>
@@ -17,10 +17,9 @@ export const Footer = () => {
                         <li><a href='/'>Login</a></li>
                     </ul>
                 </nav>
-            </section>
-            <section>
+            </div>
+            <div>
                 <h3>Contact</h3>
-                {/* <Nav /> */}
                 <nav>
                     <ul>
                         <li><a href='/'>Address</a></li>
@@ -28,10 +27,9 @@ export const Footer = () => {
                         <li><a href='/'>Email</a></li>
                     </ul>
                 </nav>
-            </section>
-            <section>
+            </div>
+            <div>
                 <h3>Social media links</h3>
-                {/* <Nav /> */}
                 <nav>
                     <ul>
                         <li><a href='/'>Instagram</a></li>
@@ -40,7 +38,7 @@ export const Footer = () => {
                         <li><a href='/'>Tiktok</a></li>
                     </ul>
                 </nav>
-            </section>
-        </footer>
+            </div>
+        </div>
     )
 }

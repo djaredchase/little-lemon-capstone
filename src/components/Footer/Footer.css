@@ -1,4 +1,18 @@
-footer {
+.footer-container {
     display: flex;
     justify-content: space-between;
+    color: #495E57;
+}
+
+.footer-container h3 {
+    font-family: 'karla';
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    font-size: 1.15rem;
+    font-family: 'karla';
+    font-weight: 400;
 }

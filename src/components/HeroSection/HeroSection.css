@@ -42,7 +42,7 @@
     max-width: 100%;
     height: auto; /* this and the above is for making image responsive */
     max-height: 50vh;
-    border-radius: 5%;
+    border-radius: 1rem;
     /* margin-top: 5rem; */
     position: relative;
     top: 3rem;
